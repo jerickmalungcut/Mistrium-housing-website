@@ -2,6 +2,7 @@ import { useState } from "react";
 import Person1 from "../../assets/person1.webp";
 import { personImg } from "../../utils/data";
 import PersonCard from "./PersonCard";
+import Testimonial from "./Testimonial";
 
 const Faqs = () => {
   const [bigPerson, setBigPerson] = useState(Person1);
@@ -33,19 +34,7 @@ const Faqs = () => {
         </div>
         {/* Text */}
         <div className="flex-1">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            facere impedit dolores atque, a sapiente temporibus provident alias
-            rerum voluptatum debitis vero voluptatem accusamus repellat,
-            exercitationem nihil, quis voluptate enim quaerat ipsum magni modi
-            dolorum incidunt id. Culpa tenetur velit voluptate exercitationem id
-            maxime nemo est quis iste rem ducimus, cumque maiores repellat
-            facere consequuntur ut amet fugiat quaerat vel reprehenderit nobis
-            libero! Hic dolorem molestias ab illum deleniti, rem eveniet. Quasi
-            iure facere sapiente ad eius architecto alias excepturi iusto ipsum
-            quae eos praesentium cum, nam at quibusdam beatae optio ex a ullam?
-            Quos inventore a quo quia odit!
-          </p>
+          <Testimonial />
         </div>
       </div>
     </section>

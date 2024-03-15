@@ -153,3 +153,22 @@ export const personImg = [
     img: Person4,
   },
 ];
+
+export const testimonialsData = [
+  {
+    name: "Emily Johnson",
+    desc: "Absolutely love shopping at Mistrium! The quality of their furniture is top-notch, and their customer service is exceptional. From cozy sofas to elegant dining sets, they have everything to elevate your home décor. Highly recommend!",
+  },
+  {
+    name: "Ryan Smith",
+    desc: "Mistrium is a gem! I recently purchased a beautiful oak dining table from them, and I couldn't be happier with my purchase. The craftsmanship is outstanding, and the staff were incredibly helpful throughout the process. Will definitely be returning for more!",
+  },
+  {
+    name: "Michael Davis",
+    desc: "Mistrium exceeded all my expectations! The moment I stepped into their showroom, I was greeted with a wide array of stylish furniture pieces. Their attention to detail and commitment to customer satisfaction truly sets them apart. Can't wait to furnish the rest of my home with their stunning collection!",
+  },
+  {
+    name: "Brandon Thompson",
+    desc: "Mistrium is a must-visit for anyone looking to spruce up their living space! I recently redecorated my living room with a gorgeous sofa and coffee table from them, and the transformation is remarkable. The staff were incredibly knowledgeable and helped me find the perfect pieces to match my style. Five stars all the way",
+  },
+];
