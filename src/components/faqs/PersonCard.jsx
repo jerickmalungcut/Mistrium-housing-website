@@ -18,7 +18,7 @@ const PersonCard = ({ bigPerson, imageURL, changePerson }) => {
 
 PersonCard.propTypes = {
   bigPerson: PropTypes.string,
-  imageURL: PropTypes.string,
+  imageURL: PropTypes.object,
   changePerson: PropTypes.func,
 };
 
