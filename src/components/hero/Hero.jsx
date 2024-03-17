@@ -15,7 +15,7 @@ const Hero = () => {
           </div>
 
           {/* Sub Heading */}
-          <div className="heading-sub flex flex-col gap-6 text-textSecondary text-sm md:text-base">
+          <div className="heading-sub flex flex-col gap-6 text-textSecondary text-sm md:text-base max-w-[500px]">
             <p>
               In unfeeling existence objection immediate repulsive on he in.
               Imprudence comparison uncommonly me he difficulty diminution
@@ -32,12 +32,12 @@ const Hero = () => {
           </div>
 
           {/* Call To Action */}
-          <div className="flex flex-col md:flex-row gap-4 text-sm md:text-base items-center md:w-[80%]">
-            <button className="bg-primary text-white py-6 px-8 w-full">
+          <div className="flex flex-col md:flex-row gap-4 text-sm md:text-base items-center md:w-[60%]">
+            <button className="bg-primary text-white py-4 px-4 w-full">
               Request a Quote
             </button>
 
-            <button className="text-primary border border-primary py-6 px-8 w-full">
+            <button className="text-primary border border-primary py-4 px-4 w-full">
               Watch Video
             </button>
           </div>

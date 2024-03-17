@@ -40,7 +40,7 @@ const Navigation = () => {
         {/* Icons */}
         <div className="flex gap-6">
           {navIcons.map((item) => (
-            <div key={item.name} className="cursor-pointer">
+            <div key={item.name} className="cursor-pointer hover:opacity-95">
               <img src={item.img} alt={item.name} />
             </div>
           ))}

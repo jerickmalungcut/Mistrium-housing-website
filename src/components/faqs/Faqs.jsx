@@ -20,7 +20,7 @@ const Faqs = () => {
             />
           </div>
 
-          <div className="flex gap-6 absolute -bottom-[5%] sm:left-[5%] max-sm:px-6">
+          <div className="flex gap-4 absolute -bottom-[5%]">
             {personImg.map((item) => (
               <div key={item.name}>
                 <PersonCard
@@ -34,6 +34,9 @@ const Faqs = () => {
         </div>
         {/* Text */}
         <div className="flex-1">
+          <h2 className="text-4xl font-bold text-textPrimary">
+            Let&apos;s See Our Customer&apos;s Says
+          </h2>
           <Testimonial />
         </div>
       </div>

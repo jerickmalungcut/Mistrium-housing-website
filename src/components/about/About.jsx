@@ -4,10 +4,10 @@ import HospitalityFurniture from "../../assets/hospitality-furniture.png";
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" className="md:mb-8">
       <div className="container">
         {/* Text */}
-        <h4 className="text-center uppercase font-bold text-2xl text-textPrimary mb-12">
+        <h4 className="text-center uppercase font-bold text-2xl md:text-3xl text-textPrimary mb-12">
           Some of our trusted clients
         </h4>
 

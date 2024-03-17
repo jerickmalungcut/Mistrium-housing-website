@@ -7,12 +7,16 @@ const Products = () => {
     <section id="products">
       <div className="container flex flex-col gap-12">
         {/* Text Container */}
-        <div className="text-container flex justify-between items-center">
-          <h2 className="text-4xl text-textSecondary uppercase font-bold">
+        <div className="text-container flex flex-col md:flex-row justify-between items-center">
+          <h2 className="text-xl md:text-4xl text-textSecondary uppercase font-bold">
             Products
           </h2>
-          <h4 className="font-bold text-textTertiary text-2xl">Best Selling</h4>
-          <h4 className="font-bold text-textTertiary text-2xl">Most Popular</h4>
+          <h4 className="font-bold text-textTertiary text-base md:text-2xl">
+            Best Selling
+          </h4>
+          <h4 className="font-bold text-textTertiary text-base md:text-2xl">
+            Most Popular
+          </h4>
           <a href="" className="text-textSecondary flex items-center gap-6">
             See All <MdOutlineArrowRightAlt size={35} />
           </a>
